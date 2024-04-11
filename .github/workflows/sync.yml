@@ -18,5 +18,7 @@ jobs:
         uses: TG908/fork-sync@v1.6
         with:
           owner: LearnEffinity
+          repository: Landing
           base: master
           head: master
+          token: ${{ secrets.FORK_SYNC_TOKEN }}  
